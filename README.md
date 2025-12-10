@@ -98,4 +98,55 @@ h1 > nav {
 ![galeria](img/galeria.jpg)
 ### 4.3. Evidencias de CSS
 - Mis selectores utilizados son por ejemplo .gallery, que es un id para las imagenes, cosas del .main-nav, etc.
-- En pseudoclases utilize a:hover, a:visited y a:focus
+- En pseudoclases utilize a:hover, a:visited y a:focus, hover para que al pasar por encima se activa, el visited es como para cuando se visita algo por primera vez y el focus es para que cuando pulses sobre ele emento pues aparezca con una caja alrededor del color que le pongas  
+![hover](img/hover.jpg)
+![focus](img/focus.jpg)
+![visited](img/visited.jpg)
+- Utilice flex ena parte para que el texto del menu superior se ponga horizontal, las listas en si y un grid para las imagenes, dejando un resultado de imagenes en 3 columnas y cada una con su espacio  
+![visited](img/flex.jpg)
+![visited](img/grid.jpg)
+- Le puse box-shadow "sombra" a todas las imagenes
+![sombra](img/box-shadow.jpg)
+### 4.4. Fuentes utilizadas
+- He utilizado la fuente local: LOUD
+- y la online: AlfaSlabOne-Regular
+- Me han gustado mucho estas tipografia porque el local le da un toque de grosor a los titulos y el online le da un estilo 3D a los textos de la cabecera y menu lateral, y es como llamativo ver eso.  
+@font-face {
+  font-family: "Fuente LOUD";
+  src: url("../AlfaSlabOne-Regular.ttf") format('truetype');
+}   
+h2{
+  text-align: center;
+  margin-top: 10px;
+  font-family: "Fuente LOUD";
+}  
+h3{
+  margin-top: 10px;
+  font-family: "Fuente LOUD";
+}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">  
+### 4.5 Menu lateral: breve explicacion
+- Se abre y se cierra el menu y se cambia el icono.
+- Pues la active que se desabilita cuando pulsas en el
+- Asi se mueve  
+.side-menu {
+  position: fixed;
+  top: 0;
+  left: -230px;            /* oculto inicialmente */
+  width: 230px;
+  height: 100%;
+  /* TODO: color de fondo, color de texto… */
+  padding-top: 60px;
+  transition: left 0.3s ease;
+  z-index: 15;
+  background-color: #f17f5d;
+  color: white;
+  padding-left: 20px;
+}
+### 4.6 Conclusion Personal
+- He aprendido a utilizar el a:hover, a:visited y a:focus, el flex y grid, ha modificar cosas que estan dentro de algo especifico, cosas que estan seguidos de otras. Y he aprendido a pode rhacer una pagina web y subirla a remoto a git HUB
+- Me gustaria mejorar en los conceptos grid, pero sobre todo flex que no lo he avabado de dominar
+- La que mas me ha costado es la galeria de imagenes, ya que me costaba entender grid.
+- La parte que me gusta mas sin duda es la historia que puse sobre el motociclismo, la segunda son las imagenes y la tercera la tabla.
