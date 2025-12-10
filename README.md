@@ -78,4 +78,24 @@ h1 > nav {
 - He incluido la Historia general del motociclismo, seguido de unas miniaturas de motos de diferentes tipos con su respectiva tabla de cada modelo con sus especificaciones y caracteristicas y terminando con un formulario para mas informacion y informacion para ponerse a contacto conmigo.
 - Mi idea de diseño era que transmita ganas de leerlo una vez visualizandolo, con colores no muy llamativos pero sin quitarle esencia.
 ### 4.2. Evidencias de HTML5
-
+- En el header se muestra en primer lugar un "h1" que es para el tirulo y luego su main con "ul seguido de li" que es para hacer una lista desordenada
+![header](img/header.jpg)
+- En el main incluye el resto de la pagina, lo que es el contenido, todo lo que contenga la pagina de contenido quitando el pie de pagina que va aparte.
+- Los section van dentro del main y puede contener varios section "secciones", a continuacion pongo una de las que he yo he puesto para las imagenes con sus respectivo h2 indicando el titulo y el "figure" dentro de un "div (caja)" que indica que el contenido es una imagen.
+![section](img/section.jpg)
+- En el footer, pie de pagina, he incluido un parra con su enlace que lleva al principio de la pagina al clickar en el y su respectivo texto.
+![footer](img/footer.jpg)
+- En el menu superior podemos observar una lista desordenada "ul seguido de li" y dentro su respectiva informacion y enlaces que llevan a una zona de la pagina especific "href= #hero" por ejemplo.
+![MenuSuperior](img/MenuSuperior.jpg)
+- En el menu lateral parrafos normales con el href que se comento arriba para que vaya al sitio especifico.  
+![MenuLateral](img/MenuLateral.jpg)
+- El section son basicamente secciones que vas haciendo por cada apartado de la pagina, en el tengo incluida la historia del motociclismo
+- En la tabla debemos utilizar "table" para crear la tabla, "thead" para la cabecera de la tabla con sus respectivos "tr" filas "th" encabezado y un "tbody" para su contenido con "tr" para filas y "td" para celda de datos de la fila.
+![Tabla](img/tabla.jpg)
+- En el formulario utilice "form" que es basicamente apra crear formulario, luego label para indicar lo que quiero poner y input para el tipo de dato a introducir, cosas que he utilizado dentro de input pues utilice lo siguiente "required" campo obligatorio, "maxlength" tamaño maximo de caracteres, y los huecos de ejemplo, es decir, que se vea un ejemplo de lo que hay que escribir en la casilla.
+![formulario](img/formulario.jpg)
+- En la galeria de imagenes dentro de su "figure" que se utiliza para mostrar que el contenido es una imagen y hay que crear uno por imagen.  
+![galeria](img/galeria.jpg)
+### 4.3. Evidencias de CSS
+- Mis selectores utilizados son por ejemplo .gallery, que es un id para las imagenes, cosas del .main-nav, etc.
+- En pseudoclases utilize a:hover, a:visited y a:focus
