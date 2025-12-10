@@ -127,7 +127,8 @@ h3{
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">  
-### 4.5 Menu lateral: breve explicacion
+### 4.5 Menu lateral: breve explicacion  
+
 - Se abre y se cierra el menu y se cambia el icono.
 - Pues la active que se desabilita cuando pulsas en el
 - Asi se mueve  
