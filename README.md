@@ -72,4 +72,10 @@ h1 > nav {
 #### Yo ya lo hice con un generador para que todas esten echas de igual tamaño e igual anchura, se tendria que hacer lo mismo pero con un ancho de 200 px por ejemplo.
 ### 3B. Efecto hover
 #### Con el box shadow con un generador de sombras se pone la sombra por detras, luego con un border solid black le pongo bordes y con transform scale (1.03) le pongo un mini ZOOM
+## Ejercicio 4 - Informe de evidencias del proyecto (defensa técnica simple)
+### 4.1. Introduccion
+- El tema de mi WEB es acerca de motos.
+- He incluido la Historia general del motociclismo, seguido de unas miniaturas de motos de diferentes tipos con su respectiva tabla de cada modelo con sus especificaciones y caracteristicas y terminando con un formulario para mas informacion y informacion para ponerse a contacto conmigo.
+- Mi idea de diseño era que transmita ganas de leerlo una vez visualizandolo, con colores no muy llamativos pero sin quitarle esencia.
+### 4.2. Evidencias de HTML5
 
