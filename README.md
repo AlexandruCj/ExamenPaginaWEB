@@ -4,7 +4,7 @@
 #### El titulo no queda centrado ya que flexbox reparte espacio entre bloques, no dentro del texto, y por tanto ese text align center solo centra el texto dentro de h1 no en cabecera.
 ### 1B. Ejercicio - Soluciona de dos formas diferentes
 #### Con flex seria:
-
+```
 .site-header {
   display: flex;
   align-items: center;
@@ -26,8 +26,10 @@ Y con grid:
   grid-column: 2; (Aqui te coloca el titulo donde quieras ponerlo)
   text-align: center; (te alinea el texto)
 }
+```
 ### 1C. Ejercicio – Convertir la cabecera en dos filas
-#### .site-header {
+```
+.site-header {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-template-rows: auto auto auto;
@@ -56,8 +58,10 @@ h1 > nav {
 .main-nav ul {
   list-style: none;
 }
+```
 ### 1D. Ejercicio - Dar relieve y separacioón visual al header
-#### .site-header {
+```
+.site-header {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-template-rows: auto auto auto;
@@ -65,6 +69,7 @@ h1 > nav {
   background-color: gray;
   border-bottom: solid black;
 }
+```
 ## Ejercicio 2 — Reorganización del header con tres elementos
 - Esta echo en el "paginaWEB.rar" con su respectivo edicion de CSS
 
