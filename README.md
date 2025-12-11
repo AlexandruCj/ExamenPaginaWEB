@@ -111,6 +111,7 @@ h1 > nav {
 - He utilizado la fuente local: LOUD
 - y la online: AlfaSlabOne-Regular
 - Me han gustado mucho estas tipografia porque el local le da un toque de grosor a los titulos y el online le da un estilo 3D a los textos de la cabecera y menu lateral, y es como llamativo ver eso.  
+```css
 @font-face {
   font-family: "Fuente LOUD";
   src: url("../AlfaSlabOne-Regular.ttf") format('truetype');
@@ -126,7 +127,8 @@ h3{
 }
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">  
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
+```  
 ### 4.5 Menu lateral: breve explicacion  
 
 - Se abre y se cierra el menu y se cambia el icono.
