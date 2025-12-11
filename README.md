@@ -66,6 +66,7 @@ h1 > nav {
   border-bottom: solid black;
 }
 ## Ejercicio 2 — Reorganización del header con tres elementos
+- Esta echo en el "paginaWEB.rar" con su respectivo edicion de CSS
 
 ## Ejercicio 3 — Miniaturas, zoom y enlace a la imagen original
 ### 3A. Crear miniaturas
@@ -78,24 +79,124 @@ h1 > nav {
 - He incluido la Historia general del motociclismo, seguido de unas miniaturas de motos de diferentes tipos con su respectiva tabla de cada modelo con sus especificaciones y caracteristicas y terminando con un formulario para mas informacion y informacion para ponerse a contacto conmigo.
 - Mi idea de diseño era que transmita ganas de leerlo una vez visualizandolo, con colores no muy llamativos pero sin quitarle esencia.
 ### 4.2. Evidencias de HTML5
-- En el header se muestra en primer lugar un "h1" que es para el tirulo y luego su main con "ul seguido de li" que es para hacer una lista desordenada
+- En el header se muestra en primer lugar un "h1" que es para el tirulo y luego su main con "ul seguido de li" que es para hacer una lista desordenada  
 ![header](img/header.jpg)
 - En el main incluye el resto de la pagina, lo que es el contenido, todo lo que contenga la pagina de contenido quitando el pie de pagina que va aparte.
 - Los section van dentro del main y puede contener varios section "secciones", a continuacion pongo una de las que he yo he puesto para las imagenes con sus respectivo h2 indicando el titulo y el "figure" dentro de un "div (caja)" que indica que el contenido es una imagen.
 ![section](img/section.jpg)
 - En el footer, pie de pagina, he incluido un parra con su enlace que lleva al principio de la pagina al clickar en el y su respectivo texto.
 ![footer](img/footer.jpg)
-- En el menu superior podemos observar una lista desordenada "ul seguido de li" y dentro su respectiva informacion y enlaces que llevan a una zona de la pagina especific "href= #hero" por ejemplo.
+- En el menu superior podemos observar una lista desordenada "ul seguido de li" y dentro su respectiva informacion y enlaces que llevan a una zona de la pagina especific "href= #hero" por ejemplo.  
 ![MenuSuperior](img/MenuSuperior.jpg)
 - En el menu lateral parrafos normales con el href que se comento arriba para que vaya al sitio especifico.  
 ![MenuLateral](img/MenuLateral.jpg)
 - El section son basicamente secciones que vas haciendo por cada apartado de la pagina, en el tengo incluida la historia del motociclismo
-- En la tabla debemos utilizar "table" para crear la tabla, "thead" para la cabecera de la tabla con sus respectivos "tr" filas "th" encabezado y un "tbody" para su contenido con "tr" para filas y "td" para celda de datos de la fila.
+- En la tabla debemos utilizar "table" para crear la tabla, "thead" para la cabecera de la tabla con sus respectivos "tr" filas "th" encabezado y un "tbody" para su contenido con "tr" para filas y "td" para celda de datos de la fila.  
 ![Tabla](img/tabla.jpg)
 - En el formulario utilice "form" que es basicamente apra crear formulario, luego label para indicar lo que quiero poner y input para el tipo de dato a introducir, cosas que he utilizado dentro de input pues utilice lo siguiente "required" campo obligatorio, "maxlength" tamaño maximo de caracteres, y los huecos de ejemplo, es decir, que se vea un ejemplo de lo que hay que escribir en la casilla.
 ![formulario](img/formulario.jpg)
 - En la galeria de imagenes dentro de su "figure" que se utiliza para mostrar que el contenido es una imagen y hay que crear uno por imagen.  
 ![galeria](img/galeria.jpg)
+- Enlaces internos:
+```
+<nav id="sideMenu" class="side-menu">
+        <p><a  href="#hero">Inicio</a></p>
+    </br>
+        <p><a  href="#Gallery">Galería</a></p>
+    </br>
+        <p><a  href="#table">Tabla</a></p>
+    </br>
+        <p><a  href="#formulario">Formulario</a></p>
+    </br>
+        <p><a  href="#contacto">Contacto</a></p>
+    </nav>
+```
+```
+ <nav class="main-nav">
+      <ul>
+        <li>
+          <a href="#hero">Inicio</a>
+          <a href="#Gallery">Galería</a>
+          <a href="#table">Tabla</a>
+          <a href="#formulario">Formulario</a>
+          <a href="#contacto">Contacto</a>
+        </li>
+      </ul>
+    </nav>
+```
+```
+ <footer class="site-footer">
+    <p><a href="#hero">&copy; 2025 — 1º DAM, IES Saladillo</a></p>
+  </footer>
+```
+- Enlaces externos:
+```
+  <section id="contacto">
+      <h2>Contacto</h2>
+      <!-- TODO: Texto, datos de contacto ficticios, redes, etc. -->
+      <p><strong>Nombre:</strong> Pedro Alexandro</p>
+      <p><strong>email:</strong> <a>pbazcoj2912@g.educaand.es</a></p>
+      <p><strong>Teléfono:</strong> +34 111222333444</p>
+      <p><strong>Ciudad:</strong> La Línea de la Concepción</p>
+      <p><strong>Paginas oficiales de las motos:</strong></p>
+    </br>
+      <p><a href="https://www.kawasaki.es/es/products"><strong>Kawasaki</strong></a></p>
+      <p><a href="https://www.bmw-motorrad.es/es/models/modeloverview.html"><strong>BMW</strong></a></p>
+      <p><a href="https://www.honda.es/motorcycles.html"><strong>Honda</strong></a></p>
+      <p><a href="https://www.ducati.com/es/es/home"><strong>Ducati</strong></a></p>
+    </section>
+```
+```
+<section id="Gallery">
+      <h2>Galería de imágenes</h2>
+      <!-- TODO: Usar CSS (preferiblemente Flex/Grid) para organizar las imágenes -->
+      <!-- Mínimo 6 imágenes -->
+      <div class="galeria">
+       <figure>
+        <a href="img/BMW.jpg">
+          <img class="bmw" src="img/BMW.jpg" alt="trail">
+        </a>
+       </figure>
+       <figure>
+        <a href="img/Ducati.jpg">
+          <img class="Ducati" src="img/Ducati.jpg" alt="sport">
+        </a>
+        </figure>
+       <figure>
+        <a href="img/Motocros.jpg">
+          <img class="cross" src="img/Motocros.jpg" alt="sport">
+        </a>
+        </figure>
+       <figure>
+        <a href="img/Kawasaki.jpeg">
+          <img class="Kawasaki" src="img/Kawasaki.jpeg" alt="sport">
+        </a>
+        </figure>
+       <figure>
+        <a href="img/H2r.jpg">
+          <img class="H2r" src="img/H2r.jpg" alt="sport">
+        </a>
+        </figure>
+       <figure>
+        <a href="img/varias.webp">
+          <img class="varias" src="img/varias.webp" alt="sport">
+        </a>
+        </figure>
+       </div>
+    </section>
+```
+```
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- TODO: Cambia el título por algo relacionado con tu temática -->
+  <title>Mi Mini-Proyecto Web</title>
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
+</head>
+```
 ### 4.3. Evidencias de CSS
 - Mis selectores utilizados son por ejemplo .gallery, que es un id para las imagenes, cosas del .main-nav, etc.
 - En pseudoclases utilize a:hover, a:visited y a:focus, hover para que al pasar por encima se activa, el visited es como para cuando se visita algo por primera vez y el focus es para que cuando pulses sobre ele emento pues aparezca con una caja alrededor del color que le pongas  
@@ -105,7 +206,7 @@ h1 > nav {
 - Utilice flex ena parte para que el texto del menu superior se ponga horizontal, las listas en si y un grid para las imagenes, dejando un resultado de imagenes en 3 columnas y cada una con su espacio  
 ![visited](img/flex.jpg)
 ![visited](img/grid.jpg)
-- Le puse box-shadow "sombra" a todas las imagenes
+- Le puse box-shadow "sombra" a todas las imagenes  
 ![sombra](img/box-shadow.jpg)
 ### 4.4. Fuentes utilizadas
 - He utilizado la fuente local: LOUD
